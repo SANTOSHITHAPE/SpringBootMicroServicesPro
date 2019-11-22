@@ -7,14 +7,16 @@ import org.springframework.web.bind.annotation.*;
 public class PlantPlacesController {
 
 	@RequestMapping("/start")
-	public String start()
-	{
+	public String start() {
 		return "start";
 	}
-	
+
+	/**
+	 * handle the endpoint
+	 * @return
+	 */
 	@RequestMapping("/")
-	public String index()
-	{
+	public String index() {
 		return "start";
 	}
 }
