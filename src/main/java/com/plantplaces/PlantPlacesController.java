@@ -13,7 +13,7 @@ public class PlantPlacesController {
 	}
 	
 	@RequestMapping("/")
-	public String index1()
+	public String index()
 	{
 		return "start";
 	}
